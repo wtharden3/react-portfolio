@@ -1,12 +1,12 @@
 import './About.css';
-import { Jumbotron, Button } from 'reactstrap';
+//import { Jumbotron, Button } from 'reactstrap';
 
 const About = () => {
   return (
-    <div className="container-fluid">
-      <Jumbotron className="Jumbotron">
-        <div className="row">
-          <div className="col-9">
+    <div className="container">
+      <div className="Jumbotron">
+        <div>
+          <div>
             <h1>About</h1>
             <p>I've been a resident of Indianapolis for 9 years. </p>
 
@@ -37,13 +37,13 @@ const About = () => {
               enjoy working with Node.js and am interested in d3.js and data
               visualization.
             </p>
-            <Button color="primary">Resume</Button>
+            <button>Resume</button>
           </div>
-          <div className="col">
+          <div>
             <p>What should I put on this side?</p>
           </div>
         </div>
-      </Jumbotron>
+      </div>
     </div>
   );
 };
