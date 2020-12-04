@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
 .leadHeader{
   color: rgb(16, 0, 43);
+  font-family: 'Dosis';
+  font-size: 64px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.leadHeader hr{
+  border: 1px solid rgba(16, 0, 43, 0.2);
 }
 
 .emphasizedHeading{
   color: #fff;
 }
+
