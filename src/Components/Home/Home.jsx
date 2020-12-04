@@ -1,18 +1,15 @@
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Education from '../Education/Education';
+import './Home.css';
 import Experience from '../Experience/Experience';
 import MyWork from '../MyWork/MyWork';
 import Skills from '../Skills/Skills';
-import { Jumbotron, Button } from 'reactstrap';
 
 const Home = () => {
   return (
     <div>
-      <Jumbotron>
-        Home
-        <Button color="primary">Resume</Button>
-      </Jumbotron>
+      <h1>Home</h1>
       <About />
       <Education />
       <Experience />
