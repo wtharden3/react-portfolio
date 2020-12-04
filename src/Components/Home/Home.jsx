@@ -9,7 +9,16 @@ import Skills from '../Skills/Skills';
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <h1 className="leadHeader">
+        <span>Hello, </span>
+        <span>I'm </span> 
+        <br />
+        <span className="emphasizedHeading">Whitney Harden</span>
+        <hr />
+        <span>I'm a </span>
+        <br />
+        <span className="emphasizedHeading">Full Stack Web Developer</span>
+      </h1>
       <About />
       <Education />
       <Experience />
