@@ -1,13 +1,14 @@
 import './About.css';
-//import { Jumbotron, Button } from 'reactstrap';
+import { Box, Grid, Container } from '@material-ui/core';
 
 const About = () => {
   return (
-    <div className="container">
-      <div className="Jumbotron">
-        <div>
-          <div>
+    <Box className="About" pb={5}>
+      <Container fixed mx="20px" py={5}>
             <h1>About</h1>
+        <Grid container spacing={0}>
+          <Grid container item sm={10}>
+
             <p>I've been a resident of Indianapolis for 9 years. </p>
 
             <p>
@@ -37,14 +38,13 @@ const About = () => {
               enjoy working with Node.js and am interested in d3.js and data
               visualization.
             </p>
-            <button>Resume</button>
-          </div>
-          <div>
+          </Grid>
+          <Grid container item sm={2}>
             <p>What should I put on this side?</p>
-          </div>
-        </div>
-      </div>
-    </div>
+          </Grid>
+        </Grid>
+      </Container>
+    </Box>
   );
 };
 
