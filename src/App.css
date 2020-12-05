@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=NTR&family=Yantramanav&display=swap');
 
 body{
   background-color: rgb(90, 24, 154);
   color: white;
+  font-family: 'Yantramanav', sans-serif;
 }
 
 .Navbar{
